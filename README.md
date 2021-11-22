@@ -8,12 +8,19 @@
 - Thats it enjoy it 🎉
 
 ## Details
-To render a piece we will use Three js and GLSL with HTMl to render your NFT on the browser.
+To render a piece we will use Three js and GLSL with HTML to render your NFT on the browser.
 All tokens and rendering code are hosted on IPFS therefore you can access the code URL from the blockchain once the mint is over as promised to avoid cheating.
 
-### You can access it once the mint is over by doing the following
+### Files explanation
+1. 'Pick Your Data From Here' folder is where you get you NFT data from, example 4.json , 1210.json, ...
+2. fragment.js and vertex.js and Plane.js files are combined together with the data file(4.json, 1210.json, ...) to generate your Avarsa
+3. three.module.js and OrbitControls.js are helpers to render your NFT
+4. index.html is where we link our code to the browser canvas
+5. renderer.js is the main rendering file that you want to interact with(to change the NFT edition and quality) 
+
+### You can access the files once the mint is over by doing the following
 - Go to the smart contract: https://snowtrace.io/address/0xfe324688283b527e91cb85f17e6ac16684e66044#readContract
-- Read the tokenURI and it will return the data of your token example : https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/4.json
+- Read the tokenURI and it will return the data of your token, tokenURI example : https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/4.json
 - The code will be hosted as follow : https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/vertex.js
 - https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/fragment.js
 - https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/Plane.js
@@ -31,13 +38,13 @@ All tokens and rendering code are hosted on IPFS therefore you can access the co
 7. run a loop to animate the piece
 Obviously its already written for you in renderer.js, thus you dont need to write the above.
 ```
-- The libraries that you need are included in the repository(Three js to handle the scene, camera, webgl rendering) and the controls file.
+- The libraries that you need are included in the repository Three js (to handle the scene, camera and webgl rendering) and the controls file.
 - All you need to edit is the edition number in the renderer.js file and then replace the 4.json file with your NFT number, so if your token number is 1211
 you will replace the 4.json file with 1211.json
 
-> Important
+> ## IMPORTANT
 ```
-To run the pieces you need to run them with a live server
+To run your NFT on the browser you need to run it with a live server
 ```
 
 
