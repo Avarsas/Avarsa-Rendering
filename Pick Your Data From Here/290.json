@@ -1,0 +1,44 @@
+{
+  "name": "#290",
+  "description": "AVARSAS NFTs Realtime rendered art pieces on the gpu",
+  "edition": 290,
+  "date": 1635333584013,
+  "attributes": [
+    {
+      "trait_type": "distortion",
+      "value": 7.396331873202864
+    },
+    {
+      "trait_type": "distortionStrength",
+      "value": 6.058796183072774
+    },
+    {
+      "trait_type": "frequency",
+      "value": 2.2889527675479338
+    },
+    {
+      "trait_type": "strength",
+      "value": 0.31963521871705414
+    },
+    {
+      "trait_type": "red",
+      "value": 0.29690347918995474
+    },
+    {
+      "trait_type": "green",
+      "value": 0.8060526219535797
+    },
+    {
+      "trait_type": "blue",
+      "value": 0.4579530914279799
+    },
+    {
+      "trait_type": "speed",
+      "value": 4.908014840793879
+    },
+    {
+      "trait_type": "gen",
+      "value": 1
+    }
+  ]
+}
