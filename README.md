@@ -18,12 +18,17 @@ All tokens and rendering code are hosted on IPFS therefore you can access the co
 4. index.html is where we link our code to the browser canvas
 5. renderer.js is the main rendering file that you want to interact with(to change the NFT edition and quality) 
 
-### You can access the files once the mint is over by doing the following
+### You can access the files from IPFS by doing the following
 - Go to the smart contract: https://snowtrace.io/address/0xfe324688283b527e91cb85f17e6ac16684e66044#readContract
-- Read the tokenURI and it will return the data of your token, tokenURI example : https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/4.json
-- The code will be hosted as follow : https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/vertex.js
-- https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/fragment.js
-- https://gateway.pinata.cloud/ipfs/sjsugbfGFJydsJUE982KJufGFGlh87F/Plane.js
+- Read the tokenURI and it will return the data of your token, for example:  ipfs://Qma26TA63GSUvJNLEN9WH2grRoX7dQX1e2jAF7MHW6vr96/4.json
+- To access the token data we need to add a gateway to the CID, you can use pinata: https://gateway.pinata.cloud/ipfs/Qma26TA63GSUvJNLEN9WH2grRoX7dQX1e2jAF7MHW6vr96/4.json
+- The code will be hosted at the following IPFS storage CID: 
+- https://gateway.pinata.cloud/ipfs/QmQLwBhh2qdupKYFmdLso9AVDzoxwqVWWFyqjdYxEMgUMR/vertex.js
+- https://gateway.pinata.cloud/ipfs/QmQLwBhh2qdupKYFmdLso9AVDzoxwqVWWFyqjdYxEMgUMR/fragment.js
+- https://gateway.pinata.cloud/ipfs/QmQLwBhh2qdupKYFmdLso9AVDzoxwqVWWFyqjdYxEMgUMR/Plane.js
+- https://gateway.pinata.cloud/ipfs/QmQLwBhh2qdupKYFmdLso9AVDzoxwqVWWFyqjdYxEMgUMR/renderer.js
+- https://gateway.pinata.cloud/ipfs/QmQLwBhh2qdupKYFmdLso9AVDzoxwqVWWFyqjdYxEMgUMR/three.module.js
+- https://gateway.pinata.cloud/ipfs/QmQLwBhh2qdupKYFmdLso9AVDzoxwqVWWFyqjdYxEMgUMR/OrbitControls.js
 
 ### now after you install the files from the repository we will use three js to render them
 - Our vertex and fragment shaders are written in GLSL language, they are combined together with the Plane.js which generate the art piece
