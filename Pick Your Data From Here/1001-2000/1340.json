@@ -1,0 +1,46 @@
+{
+  "name": "#1340",
+  "description": "Avarsas is a real-time rendered NFT collection using GLSL. View this piece live at https://avarsas-viewer.web.app/1340",
+  "edition": 1340,
+  "date": 1635333585762,
+  "attributes": [
+    {
+      "trait_type": "distortion",
+      "value": "6.8082409526"
+    },
+    {
+      "trait_type": "distortionStrength",
+      "value": "9.4015941586"
+    },
+    {
+      "trait_type": "frequency",
+      "value": "4.6692492507"
+    },
+    {
+      "trait_type": "strength",
+      "value": "0.4724432229"
+    },
+    {
+      "trait_type": "red",
+      "value": "0.8067035689"
+    },
+    {
+      "trait_type": "green",
+      "value": "0.4315279817"
+    },
+    {
+      "trait_type": "blue",
+      "value": "0.0036870986"
+    },
+    {
+      "trait_type": "speed",
+      "value": "3.5274653041"
+    },
+    {
+      "trait_type": "gen",
+      "value": "1"
+    }
+  ],
+  "animation_url": "https://avarsas-viewer.web.app/1340",
+  "image": "ipfs://QmV2G2udVFwjZ5TQJhDZ22fMhKtbvUBv49A8sHaJXLJF5K/1340.png"
+}

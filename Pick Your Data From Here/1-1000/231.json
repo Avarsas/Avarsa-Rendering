@@ -1,44 +1,46 @@
 {
   "name": "#231",
-  "description": "AVARSAS NFTs Realtime rendered art pieces on the gpu",
+  "description": "Avarsas is a real-time rendered NFT collection using GLSL. View this piece live at https://avarsas-viewer.web.app/231",
   "edition": 231,
   "date": 1635333583924,
   "attributes": [
     {
       "trait_type": "distortion",
-      "value": 3.595204992778931
+      "value": "3.5952049928"
     },
     {
       "trait_type": "distortionStrength",
-      "value": 9.563999711257338
+      "value": "9.5639997113"
     },
     {
       "trait_type": "frequency",
-      "value": 2.6927031643924315
+      "value": "2.6927031644"
     },
     {
       "trait_type": "strength",
-      "value": 0.2349985722451926
+      "value": "0.2349985722"
     },
     {
       "trait_type": "red",
-      "value": 0.17096070521055062
+      "value": "0.1709607052"
     },
     {
       "trait_type": "green",
-      "value": 0.9253633647161879
+      "value": "0.9253633647"
     },
     {
       "trait_type": "blue",
-      "value": 0.8727522009509856
+      "value": "0.8727522010"
     },
     {
       "trait_type": "speed",
-      "value": 1.2706814447086667
+      "value": "1.2706814447"
     },
     {
       "trait_type": "gen",
-      "value": 1
+      "value": "1"
     }
-  ]
+  ],
+  "animation_url": "https://avarsas-viewer.web.app/231",
+  "image": "ipfs://QmV2G2udVFwjZ5TQJhDZ22fMhKtbvUBv49A8sHaJXLJF5K/231.png"
 }
